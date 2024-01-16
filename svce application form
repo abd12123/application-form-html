@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+</head>
+
+<body>
+    <center><h1>SVCE</h1></center>
+    <center><img src="download.jpeg"></center>
+    <hr>
+    <marquee onmouseover="this.stop();" onmouseout="this.start();">******ADMISSIONS AVAILABLE****** </marquee>
+    <center><h1>APPLICATION FORM</h1></center>
+    <fieldset>
+        <legend>student details</legend>
+    
+    <form>
+        <table>
+            <tr>
+                <td>
+                    FirstName
+                </td>
+                <td>
+                    <input type="text" placeholder="First name" name="">
+                 </td>
+                 <td>
+                    LastName
+                </td>
+                <td>
+                    <input type="text" placeholder="First name" name="">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    FatherName
+                </td>
+                <td>
+                    <input type="text"name="">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    postal address
+                </td>
+                <td>
+                    <input type="text"name="">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    Permanent address
+                </td>
+                <td>
+                    <input type="text"name="">
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    gender;
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male">male
+                    </td>
+                    <td> 
+                    <input type="radio" name="gender" value="Female">female
+                 </td>
+            </tr>
+            <tr>
+                <td>
+                    course;
+                </td>
+                <td>
+                    <tr>
+                    <select name="course">
+                        <option value="-1"selected>selected</option>
+                        <option value="cs">cs</option>
+                        <option value="cse-ai">cse-ai</option>
+                        <option value="is">is</option>
+                        <option value="ece">ece</option>
+
+                    </select>
+
+                </td></tr>
+                <tr>
+                    <td>
+                        state;
+                    </td>
+                
+                <td>
+                    
+                    <select name="state">
+                        <option value="-1"selected>select</option>
+                        <option value="cs">karnataka</option>
+                        <option value="cse-ai">tn</option>
+                        <option value="is">telangana</option>
+                        <option value="ece">ap</option>
+
+                    </select>
+
+                </td></tr>
+                <tr>
+                    <td>
+                        district;
+                    </td>
+                
+                <td>
+                    
+                    <select name="district">
+                        <option value="-1"selected>select</option>
+                        <option value="cs">karnataka</option>
+                        <option value="cse-ai">tn</option>
+                        <option value="is">telangana</option>
+                        <option value="ece">ap</option>
+
+                    </select>
+
+                </td></tr>
+
+
+            
+        </table>
+    </fieldset>
+    </form>
+
+    
+</body>
+</html>
